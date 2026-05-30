@@ -1,0 +1,289 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+}
+
+.container-overall {
+        min-height: 100vh;
+        overflow: hidden;
+
+
+}
+
+
+.navbar {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background: linear-gradient(117deg, #060033e0, #043c7bde, #0d1136);
+}
+
+
+.nav-chik {
+        height: 70px;
+        width: 70px;
+}
+
+
+.angs {
+        padding-right: 100px;
+}
+
+.tab-nav td {
+        padding: 2px !important;
+        font-size: 20px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+        .angs {
+                padding-right: 0px;
+        }
+}
+
+
+/* service */
+
+.service {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding-left: 150px;
+}
+
+.over-payment-box {
+        height: 450px;
+        width: 450px;
+        background-color: rgb(228, 228, 228);
+        border-radius: 20px;
+
+}
+
+
+.first-box {
+        height: 300px;
+        width: 450px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 40px;
+        position: relative;
+}
+
+
+
+.radio-btn {
+        height: 25px;
+        width: 25px;
+
+}
+
+.payment-text {
+        padding-left: 20px !important;
+}
+
+.ser-gpay {
+        height: 30px;
+        width: 100px;
+}
+
+
+.kodu {
+        height: 3px;
+        width: 95%;
+        background-color: rgb(177, 174, 174);
+        margin: auto;
+}
+
+
+
+
+.payment-bottom {
+        height: 150px;
+        width: 450px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 42px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+}
+
+
+.servive-butt {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 17px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(214 196 26);
+    margin-top: 25px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+}
+
+
+.servive-butt:hover{
+                        color:black;
+                        transform: scale(0.9);
+}
+
+
+
+
+.payment-methord {
+
+        padding-top: 100px;
+}
+
+
+
+
+/* position icon */
+
+.box-in-ic {
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        font-size: 25px;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+
+        .over-payment-box {
+                width: 300px;
+
+        }
+
+        .service {
+
+                padding-left: 0px;
+        }
+
+        .col-6 {
+                width: 32%;
+        }
+
+        .first-box {
+
+                padding: 25px;
+                width: 310px;
+        }
+
+        .box-in-ic {
+
+                top: 34px;
+
+        }
+
+        .ser-gpay {
+
+                width: 75px;
+        }
+
+
+}
+
+
+@media only screen and (min-width:375px) and (max-width:425px) {
+        .service {
+                padding-left: 30px;
+        }
+
+
+}
+
+
+/* button quary */
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+
+        .servive-butt {
+                font-size: 25px;
+
+
+
+
+        }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+        min-height: 60vh;
+        background-image: linear-gradient(#5656a5, #0b2b3b);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+}
+
+.foot-im {
+        height: 200px;
+        width: 200px;
+}
+
+
+
+
+.foot-img-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+.foot-text-meat {
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+}
+
+
+.foot-angs {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+}
+
+.foot-head-h {
+        color: black;
+        font-weight: bold;
+
+}
+
+
+.foot-pro-tab td {
+        font-size: 14px;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.fon-foo-ic {
+        font-size: 45px;
+
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+        .item-row {
+                justify-content: center;
+        }
+
+}
